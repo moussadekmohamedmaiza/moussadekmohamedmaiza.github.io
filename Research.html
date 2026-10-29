@@ -3,279 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Research - Mohamed Maiza</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            font-size: 17px;
-            line-height: 1.65;
-            color: #222;
-            background-color: #fafafa;
-            padding: 0;
-        }
-        
-        .container {
-            max-width: 750px;
-            margin: 0 auto;
-            padding: 50px 30px;
-            background-color: #fff;
-            box-shadow: 0 0 30px rgba(0,0,0,0.05);
-            min-height: 100vh;
-        }
-        
-        header {
-            margin-bottom: 35px;
-            padding-bottom: 30px;
-            border-bottom: 2px solid #e0e0e0;
-        }
-        
-        h1 {
-            font-size: 32px;
-            font-weight: normal;
-            margin-bottom: 8px;
-            color: #1a1a1a;
-            letter-spacing: -0.3px;
-        }
-        
-        .subtitle {
-            font-size: 17px;
-            color: #666;
-            font-style: italic;
-        }
-        
-        nav {
-            margin: 30px 0;
-            padding: 18px 0;
-            border-top: 1px solid #e0e0e0;
-            border-bottom: 1px solid #e0e0e0;
-        }
-        
-        nav ul {
-            list-style: none;
-            display: flex;
-            gap: 25px;
-            justify-content: center;
-        }
-        
-        nav a {
-            color: #0066cc;
-            text-decoration: none;
-            font-size: 17px;
-            padding: 5px 10px;
-            border-bottom: 2px solid transparent;
-            transition: border-color 0.2s ease;
-        }
-        
-        nav a:hover {
-            border-bottom-color: #0066cc;
-        }
-        
-        section {
-            margin-bottom: 45px;
-        }
-        
-        h2 {
-            font-size: 22px;
-            font-weight: normal;
-            margin-bottom: 20px;
-            color: #1a1a1a;
-            padding-bottom: 8px;
-            border-bottom: 1px solid #ddd;
-        }
-        
-        p {
-            color: #333;
-            margin-bottom: 15px;
-            text-align: justify;
-        }
-        
-        .interests {
-            color: #333;
-            line-height: 1.75;
-        }
-        
-        .paper {
-            margin-bottom: 30px;
-        }
-        
-        .paper-title {
-            color: #1a1a1a;
-            margin-bottom: 8px;
-            line-height: 1.6;
-        }
-        
-        .paper-title a {
-            color: #0066cc;
-            text-decoration: none;
-        }
-        
-        .paper-title a:hover {
-            text-decoration: underline;
-        }
-        
-        .paper-link {
-            display: block;
-            margin-top: 6px;
-            font-size: 16px;
-            color: #555;
-        }
-        
-        .paper-link a {
-            color: #0066cc;
-            text-decoration: none;
-            margin-right: 8px;
-        }
-        
-        .paper-link a:hover {
-            text-decoration: underline;
-        }
-        
-        footer {
-            margin-top: 60px;
-            padding-top: 25px;
-            border-top: 1px solid #e0e0e0;
-            text-align: center;
-            color: #888;
-            font-size: 15px;
-        }
-        
-        a {
-            color: #0066cc;
-            text-decoration: none;
-        }
-        
-        a:hover {
-            text-decoration: underline;
-        }
-        
-        @media (max-width: 768px) {
-            .container {
-                padding: 35px 25px;
-            }
-            
-            h1 {
-                font-size: 28px;
-            }
-            
-            nav ul {
-                flex-direction: column;
-                gap: 12px;
-                align-items: center;
-            }
-            
-            p {
-                text-align: left;
-            }
-        }
-        
-        @media print {
-            body {
-                background-color: white;
-            }
-            
-            .container {
-                box-shadow: none;
-                padding: 20px;
-            }
-            
-            nav {
-                display: none;
-            }
-            
-            a {
-                color: #000;
-                text-decoration: underline;
-            }
-        }
-    </style>
+    <meta name="theme-color" content="#f5f8f7">
+    <title>Research | Mohamed Moussadek Maiza</title>
+    <meta name="description" content="Research and publications of Mohamed Moussadek Maiza in Poisson and Dirac geometry, symplectic and hyperkähler geometry, deformation theory, quiver moduli, and geometric field theories.">
+    <link rel="canonical" href="https://moussadekmohamedmaiza.github.io/Research.html">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="site.css">
+    <script src="site.js" defer></script>
 </head>
-<body>
-    <div class="container">
-        <header>
-            <h1>Mohamed Moussadek Maiza</h1>
-            <div class="subtitle">Research</div>
-        </header>
-        
-        <nav>
-             <ul>              
-                <li><a href="Research.html">Research</a></li>
+<body id="top">
+<a class="skip-link" href="#main-content">Skip to content</a>
+<div class="site-shell">
+    <header class="site-header">
+        <p class="eyebrow">Mohamed Moussadek Maiza</p>
+        <h1>Research</h1>
+        <p class="subtitle">Poisson and Dirac geometry · Deformation theory · Moduli spaces</p>
+    </header>
+    <div class="topbar">
+        <a class="brand" href="index.html" aria-label="Mohamed Moussadek Maiza, home">MMM</a>
+        <div class="topbar-tools">
+            <button class="menu-button" type="button" data-menu-toggle aria-expanded="false" aria-controls="main-nav">Menu</button>
+            <button class="icon-button" type="button" data-theme-toggle aria-label="Switch to dark theme" aria-pressed="false">☾ Dark</button>
+        </div>
+        <nav class="nav-panel" id="main-nav" data-menu aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li><li><a href="Research.html" aria-current="page">Research</a></li>
+                <li><a href="Cv.html">CV</a></li><li><a href="Talks.html">Talks</a></li><li><a href="Teaching.html">Teaching</a></li>
             </ul>
         </nav>
-        
-        <main>
-            <section>
-                <h2>Research Interests</h2>
-                <p class="interests">
-                    Topological quantum field theory, deformation spaces, differential geometry, symplectic geometry, Poisson geometry, complex geometry, hyperkähler geometry, moduli spaces.
-                </p>
-            </section>
-            
-            <section>
-                <h2>Papers</h2>
-
-                 <div class="paper">
-                     <div class="paper-title">
-                        1. Nahm-Kirchhoff moduli spaces, hyperkähler quotient and 2D field theories
-                        <a href="https://arxiv.org/abs/2610.03384">arXiv:2610.03384</a>
-                        [<a href="https://arxiv.org/pdf/2610.03384">pdf</a>]
-                    </div>
-                </div>
-
-                    <div class="paper">  
-                      <div class="paper-title">
-                        2. Dirac geometry, deformation theory and shifted symplectic geometry
-                        <a href="https://arxiv.org/abs/2607.23826">arXiv:2607.23826</a>
-                        [<a href="https://arxiv.org/pdf/2607.23826">pdf</a>]
-                    </div>
-                </div>
-
-                  <div class="paper">
-                    <div class="paper-title">
-                        3. From multiplicative to additive geometry: Deformation theory and 2D TQFT
-                        <a href="https://doi.org/10.1016/j.geomphys.2026.105940" target="_blank">Journal of Geometry and Physics (2026)</a>
-                    </div>
-                    <div class="paper-link">
-                        <a href="https://arxiv.org/abs/2601.13455">arXiv:2601.13455</a>
-                        [<a href="https://arxiv.org/pdf/2601.13455">pdf</a>]
-                    </div>
-                  </div>
-                     
-                <div class="paper">
-                    <div class="paper-title">
-                        4. Lax-Kirchhoff moduli spaces and Hamiltonian 2D TQFT (with <a href="https://www.usherbrooke.ca/mathematiques/nous-joindre/personnel/corps-professoral/professeurs/maxence-mayrand">Maxence Mayrand</a>).
-                         <a href="https://doi.org/10.1007/s10711-026-01105-x" target="_blank">Geometriae Dedicata (2026)</a><br>
-                    </div>
-                    <div class="paper-link">
-                        <a href="https://arxiv.org/abs/2510.23567">arXiv:2510.23567</a>
-                        [<a href="https://arxiv.org/pdf/2510.23567">pdf</a>]
-                    </div>
-                </div>     
-                     
-                <div class="paper">
-                    <div class="paper-title">
-                        5. Deformation spaces of quasi-Hamiltonian spaces (with <a href="https://math.usherbrooke.ca/jpburelle/">Jean-Philippe Burelle</a> and <a href="https://www.usherbrooke.ca/mathematiques/nous-joindre/personnel/corps-professoral/professeurs/maxence-mayrand">Maxence Mayrand</a>).
-                    </div>
-                    <div class="paper-link">
-                         <a href="https://doi.org/10.1016/j.difgeo.2026.102371" target="_blank">Differential Geometry and its Applications (2026)</a><br>
-                        <a href="https://arxiv.org/abs/2505.16689">arXiv:2505.16689</a>
-                        [<a href="https://arxiv.org/pdf/2505.16689">pdf</a>]
-                    
-                    </div>
-                </div>
-                
-               
-            </section>
-        </main>
-        
-        <footer>
-            <p>&copy; 2025 Mohamed Maiza</p>
-        </footer>
     </div>
+    <main id="main-content">
+        <section>
+            <p class="section-kicker">Overview</p>
+            <h2>Research interests</h2>
+            <p>My research concerns Poisson geometry, Dirac structures, symplectic and hyperkähler geometry, deformation theory, and moduli spaces. Two of my papers address these themes directly: <i>From multiplicative to additive geometry: Deformation theory and 2D TQFT</i> develops the Poisson-geometric passage between Hamiltonian and quasi-Hamiltonian structures, while <i>Dirac geometry, deformation theory and shifted symplectic geometry</i> develops the Dirac-geometric side.</p>
+            <p>A recurring question is how additive and multiplicative structures relate: Hamiltonian spaces carry Lie-algebra-valued moment maps, while quasi-Hamiltonian spaces carry group-valued moment maps. I study deformations between these settings and their behavior under fusion, reduction, and gluing.</p>
+            <p>Another part of my work builds geometric field theories from moduli spaces associated with quivers. My recent research develops a hyperkähler analogue using Nahm--Kirchhoff equations and analytic variational methods.</p>
+        </section>
+
+        <section>
+            <p class="section-kicker">Current directions</p>
+            <h2>Research themes</h2>
+            <div class="research-grid">
+                <article class="research-card"><h3>Poisson and Dirac geometry</h3><p>Poisson structures and Dirac geometry, including deformation theory, shifted symplectic geometry, and reduction.</p></article>
+                <article class="research-card"><h3>Quiver moduli and TQFT</h3><p>Lax--Kirchhoff equations, Hamiltonian and quasi-Hamiltonian moduli spaces, and cutting-and-gluing structures.</p></article>
+                <article class="research-card"><h3>Hyperkähler geometry</h3><p>Nahm--Kirchhoff moduli spaces, hyperkähler quotients, and analysis in gauge-theoretic moduli problems.</p></article>
+            </div>
+        </section>
+
+        <section id="papers">
+            <p class="section-kicker">Publications and preprints</p>
+            <h2>Selected papers</h2>
+            <div class="filter-bar" role="search">
+                <label class="visually-hidden" for="paper-search">Search papers</label>
+                <input class="search-input" id="paper-search" type="search" placeholder="Search titles, authors, or topics…" data-paper-search>
+                <div class="filter-buttons" role="group" aria-label="Filter papers by topic">
+                    <button class="filter-button" type="button" data-filter="all" aria-pressed="true">All</button>
+                    <button class="filter-button" type="button" data-filter="symplectic" aria-pressed="false">Symplectic</button>
+                    <button class="filter-button" type="button" data-filter="tqft" aria-pressed="false">TQFT</button>
+                    <button class="filter-button" type="button" data-filter="hyperkahler" aria-pressed="false">Hyperkähler</button>
+                    <button class="filter-button" type="button" data-filter="dirac" aria-pressed="false">Dirac</button>
+                    <button class="filter-button" type="button" data-filter="poisson" aria-pressed="false">Poisson</button>
+                </div>
+            </div>
+            <div class="paper-list" aria-live="polite">
+                <article class="paper" data-paper data-tags="hyperkahler tqft symplectic" data-search="Nahm Kirchhoff moduli spaces hyperkahler quotient field theories Donaldson quiver">
+                    <div class="paper-top"><div><h3 class="paper-title">Nahm--Kirchhoff moduli spaces, hyperkähler quotient and 2D field theories</h3><p class="paper-meta">Mohamed Moussadek Maiza · Preprint, 2026</p></div><span class="tag">Preprint</span></div>
+                    <div class="paper-links"><a href="https://arxiv.org/abs/2610.03384" target="_blank" rel="noopener">arXiv:2610.03384</a><a href="https://arxiv.org/pdf/2610.03384" target="_blank" rel="noopener">PDF</a></div>
+                    <details><summary>Abstract</summary><p class="abstract">This work develops hyperkähler moduli spaces associated with Nahm--Kirchhoff equations on quivers and studies their two-dimensional field-theoretic structure. Analytic and variational methods prove a quiver analogue of a Donaldson-type theorem.</p></details>
+                </article>
+                <article class="paper" data-paper data-tags="dirac poisson symplectic" data-search="Dirac geometry deformation theory shifted symplectic structures Poisson reduction groupoids">
+                    <div class="paper-top"><div><h3 class="paper-title">Dirac geometry, deformation theory and shifted symplectic geometry</h3><p class="paper-meta">Mohamed Moussadek Maiza · Preprint, 2026</p></div><span class="tag">Preprint</span></div>
+                    <div class="paper-links"><a href="https://arxiv.org/abs/2607.23826" target="_blank" rel="noopener">arXiv:2607.23826</a><a href="https://arxiv.org/pdf/2607.23826" target="_blank" rel="noopener">PDF</a></div>
+                    <details><summary>Abstract</summary><p class="abstract">This work extends deformation methods to Dirac geometry and studies compatibility with reduction along strong Dirac maps, integration to quasi-symplectic groupoids, and Morita equivalence of Lie algebroids.</p></details>
+                </article>
+                <article class="paper" data-paper data-tags="symplectic tqft poisson" data-search="Poisson multiplicative additive geometry deformation theory two dimensional TQFT Hamiltonian quasi-Hamiltonian">
+                    <div class="paper-top"><div><h3 class="paper-title">From multiplicative to additive geometry: Deformation theory and 2D TQFT</h3><p class="paper-meta">Mohamed Moussadek Maiza · <i>Journal of Geometry and Physics</i> (2026)</p></div><span class="tag">Published</span></div>
+                    <div class="paper-links"><a href="https://doi.org/10.1016/j.geomphys.2026.105940" target="_blank" rel="noopener">Journal</a><a href="https://arxiv.org/abs/2601.13455" target="_blank" rel="noopener">arXiv:2601.13455</a><a href="https://arxiv.org/pdf/2601.13455" target="_blank" rel="noopener">PDF</a></div>
+                    <details><summary>Abstract</summary><p class="abstract">This paper studies the Poisson-geometric transition between the multiplicative, group-valued setting of quasi-Hamiltonian spaces and the additive, Lie-algebra-valued setting of Hamiltonian spaces. It constructs deformations between these geometries and relates them to moduli spaces and two-dimensional field theories.</p></details>
+                </article>
+                <article class="paper" data-paper data-tags="symplectic tqft" data-search="Lax Kirchhoff moduli spaces Hamiltonian quivers 2D TQFT cutting gluing Mayrand">
+                    <div class="paper-top"><div><h3 class="paper-title">Lax--Kirchhoff moduli spaces and Hamiltonian 2D TQFT</h3><p class="paper-meta">Mohamed Moussadek Maiza and Maxence Mayrand · <i>Geometriae Dedicata</i> (2026)</p></div><span class="tag">Published</span></div>
+                    <div class="paper-links"><a href="https://doi.org/10.1007/s10711-026-01105-x" target="_blank" rel="noopener">Journal</a><a href="https://arxiv.org/abs/2510.23567" target="_blank" rel="noopener">arXiv:2510.23567</a><a href="https://arxiv.org/pdf/2510.23567" target="_blank" rel="noopener">PDF</a></div>
+                    <details><summary>Abstract</summary><p class="abstract">The paper constructs symplectic moduli spaces associated with Lax equations on quivers and Kirchhoff conditions at vertices. These spaces satisfy cutting and gluing laws and define a two-dimensional Hamiltonian TQFT.</p></details>
+                </article>
+                <article class="paper" data-paper data-tags="symplectic" data-search="deformation spaces quasi-Hamiltonian Hamiltonian Burelle Mayrand">
+                    <div class="paper-top"><div><h3 class="paper-title">Deformation spaces of quasi-Hamiltonian spaces</h3><p class="paper-meta">Jean-Philippe Burelle, Mohamed Moussadek Maiza, and Maxence Mayrand · <i>Differential Geometry and its Applications</i> (2026)</p></div><span class="tag">Published</span></div>
+                    <div class="paper-links"><a href="https://doi.org/10.1016/j.difgeo.2026.102371" target="_blank" rel="noopener">Journal</a><a href="https://arxiv.org/abs/2505.16689" target="_blank" rel="noopener">arXiv:2505.16689</a><a href="https://arxiv.org/pdf/2505.16689" target="_blank" rel="noopener">PDF</a></div>
+                    <details><summary>Abstract</summary><p class="abstract">This joint work constructs smooth deformations from quasi-Hamiltonian to Hamiltonian spaces, including deformations of the double, conjugacy classes near the identity, and moduli spaces of flat connections. Under suitable regularity assumptions, the construction is compatible with fusion and reduction.</p></details>
+                </article>
+            </div>
+            <p class="empty-state" data-empty-state>No papers match this search. Try another term or topic.</p>
+        </section>
+    </main>
+    <footer><p>© <span data-year>2026</span> Mohamed Moussadek Maiza</p><a class="back-to-top" href="#top">Back to top ↑</a></footer>
+</div>
 </body>
 </html>
